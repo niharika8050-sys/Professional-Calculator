@@ -1,10 +1,10 @@
 # 🧮 Professional Calculator
 
-A modular command-line calculator built with Python that performs various mathematical operations while maintaining calculation history with timestamps. This project follows clean coding practices and a structured architecture, making it suitable for learning, portfolio showcasing, and internship submissions.
+A professional command-line calculator developed in Python using a modular architecture. This project performs common mathematical operations, maintains calculation history with timestamps, and demonstrates clean coding practices suitable for academic projects and internship portfolios.
 
 ---
 
-## ✨ Features
+## 📌 Features
 
 - ➕ Addition
 - ➖ Subtraction
@@ -13,33 +13,64 @@ A modular command-line calculator built with Python that performs various mathem
 - 🧮 Modulus
 - 🔢 Power
 - √ Square Root
-- ⌊ Floor Division
-- 📊 Percentage Calculation
+- 📊 Percentage
+- 📂 Floor Division
 - 📜 View Calculation History
 - 🗑️ Clear History
 - 💾 Save History to File
 - 🕒 Timestamp for Every Calculation
-- ⚠️ Error Handling
-- 🎯 Professional Command-Line Interface
+- ⚠️ Exception Handling
+- 🏗️ Modular Project Structure
+
+---
+
+## 📸 Project Screenshots
+
+### 🏠 Home Screen
+
+![Home Screen](assets/screenshots/home.png)
+
+---
+
+### ➕ Addition
+
+![Addition](assets/screenshots/addition.png)
+
+---
+
+### 📜 History
+
+![History](assets/screenshots/history.png)
+
+---
+
+### √ Square Root
+
+![Square Root](assets/screenshots/square_root.png)
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 Professional_Calculator/
+│
+├── assets/
+│   └── screenshots/
+│       ├── home.png
+│       ├── addition.png
+│       ├── history.png
+│       └── square_root.png
 │
 ├── calculator.py
 ├── calculator_engine.py
+├── config.py
 ├── history.py
 ├── utils.py
-├── config.py
+├── theme.py
 ├── README.md
 ├── requirements.txt
-├── .gitignore
-│
-└── assets/
-    └── screenshots/
+└── .gitignore
 ```
 
 ---
@@ -48,27 +79,26 @@ Professional_Calculator/
 
 - Python 3
 - VS Code
-- File Handling
-- Exception Handling
-- Modular Programming
+- Git
+- GitHub
 
 ---
 
 ## ▶️ How to Run
 
-Clone the repository
+Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/niharika8050-sys/Professional-Calculator.git
 ```
 
-Move into the project
+Go to the project folder:
 
 ```bash
-cd Professional_Calculator
+cd Professional-Calculator
 ```
 
-Run the calculator
+Run the application:
 
 ```bash
 python calculator.py
@@ -76,31 +106,26 @@ python calculator.py
 
 ---
 
-## 📸 Screenshots
+## 💡 Concepts Used
 
-Add screenshots inside:
-
-```
-assets/screenshots/
-```
-
-Example:
-
-- Home Screen
-- Addition
-- Division
-- History
-- Save History
+- Functions
+- Modular Programming
+- Dictionaries
+- Exception Handling
+- File Handling
+- Lists
+- Loops
+- Conditional Statements
 
 ---
 
-## 📈 Future Improvements
+## 🔮 Future Enhancements
 
 - Scientific Calculator
-- GUI Version using Tkinter
+- GUI using Tkinter
 - Dark Theme
-- Calculation Statistics
 - Export History to CSV
+- Calculation Statistics
 
 ---
 
@@ -108,10 +133,12 @@ Example:
 
 **Niharika V**
 
-Artificial Intelligence & Machine Learning Student
+B.E. Artificial Intelligence & Machine Learning
 
 Python Developer
 
+GitHub: https://github.com/niharika8050-sys
+
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star.
+⭐ If you found this project useful, consider giving it a Star.
