@@ -28,25 +28,25 @@ A professional command-line calculator developed in Python using a modular archi
 
 ### 🏠 Home Screen
 
-![Home Screen](assets/screenshots/home.png)
+![Home Screen](assets/home.png)
 
 ---
 
 ### ➕ Addition
 
-![Addition](assets/screenshots/addition.png)
+![Addition](assets/addition.png)
 
 ---
 
 ### 📜 History
 
-![History](assets/screenshots/history.png)
+![History](assets/history.png)
 
 ---
 
 ### √ Square Root
 
-![Square Root](assets/screenshots/square_root.png)
+![Square Root](assets/square_root.png)
 
 ---
 
@@ -56,11 +56,10 @@ A professional command-line calculator developed in Python using a modular archi
 Professional_Calculator/
 │
 ├── assets/
-│   └── screenshots/
-│       ├── home.png
-│       ├── addition.png
-│       ├── history.png
-│       └── square_root.png
+│   ├── home.png
+│   ├── addition.png
+│   ├── history.png
+│   └── square_root.png
 │
 ├── calculator.py
 ├── calculator_engine.py
@@ -86,19 +85,19 @@ Professional_Calculator/
 
 ## ▶️ How to Run
 
-Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/niharika8050-sys/Professional-Calculator.git
 ```
 
-Go to the project folder:
+### Move into the project folder
 
 ```bash
 cd Professional-Calculator
 ```
 
-Run the application:
+### Run the calculator
 
 ```bash
 python calculator.py
